@@ -1,0 +1,11 @@
+
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/altimetric_search
+      username: root
+      password: LOgu892@
+      driver-class-name: com.mysql.jdbc.Driver
+   jpa: 
+      database-platform: org.hibernate.dialect.MySQL5Dialect
+      show-sql: true
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
